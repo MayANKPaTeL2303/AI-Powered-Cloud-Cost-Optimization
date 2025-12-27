@@ -1,0 +1,17 @@
+{
+  "name": "Market Analysis Tool",
+  "budget_inr_per_month": 3000,
+  "description": "A tool to track highest-selling products each month using React, Node.js, MongoDB, Nginx and AWS.",
+  "tech_stack": {
+    "frontend": "react",
+    "backend": "nodejs",
+    "database": "mongodb",
+    "hosting": "aws",
+    "proxy": "nginx"
+  },
+  "non_functional_requirements": [
+    "scalability",
+    "monitoring",
+    "security"
+  ]
+}

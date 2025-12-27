@@ -1,0 +1,134 @@
+[
+  {
+    "month": "2025-01",
+    "service": "EC2",
+    "resource_id": "i-web-01",
+    "region": "ap-south-1",
+    "usage_type": "t3.medium",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 960,
+    "desc": "Web server"
+  },
+  {
+    "month": "2025-01",
+    "service": "RDS",
+    "resource_id": "db-web-01",
+    "region": "ap-south-1",
+    "usage_type": "db.t3.micro",
+    "usage_quantity": 24,
+    "unit": "database-seconds",
+    "cost_inr": 640,
+    "desc": "Database"
+  },
+  {
+    "month": "2025-01",
+    "service": "S3",
+    "resource_id": "s3-web-01",
+    "region": "ap-south-1",
+    "usage_type": "Standard",
+    "usage_quantity": 30,
+    "unit": "GB",
+    "cost_inr": 480,
+    "desc": "Storage"
+  },
+  {
+    "month": "2025-01",
+    "service": "Lambda",
+    "resource_id": "lambda-web-01",
+    "region": "ap-south-1",
+    "usage_type": "FunctionExecutionRole",
+    "usage_quantity": 120,
+    "unit": "requests",
+    "cost_inr": 960,
+    "desc": "Lambda"
+  },
+  {
+    "month": "2025-01",
+    "service": "CloudWatch",
+    "resource_id": "cw-web-01",
+    "region": "ap-south-1",
+    "usage_type": "Monitoring",
+    "usage_quantity": 24,
+    "unit": "metric-data-points",
+    "cost_inr": 384,
+    "desc": "CloudWatch"
+  },
+  {
+    "month": "2025-01",
+    "service": "EC2",
+    "resource_id": "i-web-02",
+    "region": "ap-south-1",
+    "usage_type": "t3.micro",
+    "usage_quantity": 48,
+    "unit": "hours",
+    "cost_inr": 768,
+    "desc": "Web server"
+  },
+  {
+    "month": "2025-01",
+    "service": "RDS",
+    "resource_id": "db-web-02",
+    "region": "ap-south-1",
+    "usage_type": "db.t3.small",
+    "usage_quantity": 48,
+    "unit": "database-seconds",
+    "cost_inr": 960,
+    "desc": "Database"
+  },
+  {
+    "month": "2025-01",
+    "service": "S3",
+    "resource_id": "s3-web-02",
+    "region": "ap-south-1",
+    "usage_type": "Standard",
+    "usage_quantity": 60,
+    "unit": "GB",
+    "cost_inr": 768,
+    "desc": "Storage"
+  },
+  {
+    "month": "2025-01",
+    "service": "Lambda",
+    "resource_id": "lambda-web-02",
+    "region": "ap-south-1",
+    "usage_type": "FunctionExecutionRole",
+    "usage_quantity": 96,
+    "unit": "requests",
+    "cost_inr": 768,
+    "desc": "Lambda"
+  },
+  {
+    "month": "2025-01",
+    "service": "CloudWatch",
+    "resource_id": "cw-web-02",
+    "region": "ap-south-1",
+    "usage_type": "Monitoring",
+    "usage_quantity": 48,
+    "unit": "metric-data-points",
+    "cost_inr": 384,
+    "desc": "CloudWatch"
+  },
+  {
+    "month": "2025-01",
+    "service": "EC2",
+    "resource_id": "i-web-03",
+    "region": "ap-south-1",
+    "usage_type": "t3.small",
+    "usage_quantity": 72,
+    "unit": "hours",
+    "cost_inr": 1440,
+    "desc": "Web server"
+  },
+  {
+    "month": "2025-01",
+    "service": "RDS",
+    "resource_id": "db-web-03",
+    "region": "ap-south-1",
+    "usage_type": "db.t3.medium",
+    "usage_quantity": 72,
+    "unit": "database-seconds",
+    "cost_inr": 1440,
+    "desc": "Database"
+  }
+]

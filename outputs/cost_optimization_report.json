@@ -1,0 +1,137 @@
+{
+  "project_name": "Market Analysis Tool",
+  "analysis": {
+    "total_monthly_cost": 9952,
+    "budget": 3000,
+    "budget_variance": 6952,
+    "service_costs": {
+      "EC2": 3168,
+      "RDS": 3040,
+      "S3": 1248,
+      "Lambda": 1728,
+      "CloudWatch": 768
+    },
+    "high_cost_services": {
+      "EC2": 3168,
+      "RDS": 3040,
+      "Lambda": 1728
+    },
+    "is_over_budget": true
+  },
+  "recommendations": [
+    {
+      "title": "Switch to Azure Kubernetes Service (AKS) for backend",
+      "service": "backend",
+      "current_cost": 3040,
+      "potential_savings": 1520,
+      "recommendation_type": "alternative_provider",
+      "description": "Azure Kubernetes Service (AKS) provides cost-effective and scalable container management",
+      "implementation_effort": "high",
+      "risk_level": "medium",
+      "steps": [
+        "Evaluate AKS features and pricing",
+        "Migrate backend to AKS",
+        "Optimize resource allocation"
+      ],
+      "cloud_providers": [
+        "Azure"
+      ]
+    },
+    {
+      "title": "Use AWS Lambda for cost-effective compute",
+      "service": "backend",
+      "current_cost": 3040,
+      "potential_savings": 1520,
+      "recommendation_type": "optimization",
+      "description": "AWS Lambda provides serverless compute for cost-effective and scalable backend processing",
+      "implementation_effort": "medium",
+      "risk_level": "low",
+      "steps": [
+        "Evaluate AWS Lambda pricing and features",
+        "Refactor backend code to use Lambda functions",
+        "Monitor and optimize Lambda function usage"
+      ],
+      "cloud_providers": [
+        "AWS"
+      ]
+    },
+    {
+      "title": "Utilize Azure Cosmos DB for MongoDB alternative",
+      "service": "database",
+      "current_cost": 3040,
+      "potential_savings": 1520,
+      "recommendation_type": "alternative_provider",
+      "description": "Azure Cosmos DB provides a globally distributed and scalable NoSQL database alternative to MongoDB",
+      "implementation_effort": "high",
+      "risk_level": "medium",
+      "steps": [
+        "Evaluate Azure Cosmos DB features and pricing",
+        "Migrate database to Azure Cosmos DB",
+        "Optimize resource allocation"
+      ],
+      "cloud_providers": [
+        "Azure"
+      ]
+    },
+    {
+      "title": "Implement cost-effective storage with AWS S3 Infrequent Access (IA)",
+      "service": "storage",
+      "current_cost": 1248,
+      "potential_savings": 926.4,
+      "recommendation_type": "cost_effective_storage",
+      "description": "AWS S3 Infrequent Access (IA) provides cost-effective storage for infrequently accessed data",
+      "implementation_effort": "low",
+      "risk_level": "low",
+      "steps": [
+        "Evaluate AWS S3 IA pricing and features",
+        "Move less frequently accessed data to S3 IA",
+        "Monitor and optimize S3 IA usage"
+      ],
+      "cloud_providers": [
+        "AWS"
+      ]
+    },
+    {
+      "title": "Use Azure Virtual Machines Scale Sets for cost-effective compute",
+      "service": "backend",
+      "current_cost": 3040,
+      "potential_savings": 1520,
+      "recommendation_type": "optimization",
+      "description": "Azure Virtual Machines Scale Sets provide cost-effective and scalable compute for backend processing",
+      "implementation_effort": "medium",
+      "risk_level": "low",
+      "steps": [
+        "Evaluate Azure Virtual Machines Scale Sets pricing and features",
+        "Refactor backend code to use Scale Sets",
+        "Monitor and optimize Scale Set usage"
+      ],
+      "cloud_providers": [
+        "Azure"
+      ]
+    },
+    {
+      "title": "Implement cost-effective storage with Google Cloud Storage Nearline",
+      "service": "storage",
+      "current_cost": 1248,
+      "potential_savings": 926.4,
+      "recommendation_type": "cost_effective_storage",
+      "description": "Google Cloud Storage Nearline provides cost-effective storage for infrequently accessed data",
+      "implementation_effort": "low",
+      "risk_level": "low",
+      "steps": [
+        "Evaluate Google Cloud Storage Nearline pricing and features",
+        "Move less frequently accessed data to Nearline",
+        "Monitor and optimize Nearline usage"
+      ],
+      "cloud_providers": [
+        "GCP"
+      ]
+    }
+  ],
+  "summary": {
+    "total_potential_savings": 7932.8,
+    "savings_percentage": 79.71,
+    "recommendations_count": 6,
+    "high_impact_recommendations": 6
+  }
+}

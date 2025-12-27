@@ -1,0 +1,136 @@
+
+====================
+CLOUD COST OPTIMIZATION REPORT
+====================
+
+Project: Market Analysis Tool
+Generated: N/A
+
+====================
+COST ANALYSIS
+====================
+
+Total Monthly Cost:    ₹9,952.00
+Budget:                ₹3,000.00
+Budget Variance:       ₹6,952.00
+Status:                OVER BUDGET
+
+Cost Breakdown by Service:
+  - EC2                  ₹3,168.00
+  - RDS                  ₹3,040.00
+  - Lambda               ₹1,728.00
+  - S3                   ₹1,248.00
+  - CloudWatch           ₹768.00
+
+====================
+OPTIMIZATION SUMMARY
+====================
+
+Total Potential Savings:       ₹7,932.80
+Savings Percentage:            79.7%
+Total Recommendations:         6
+High-Impact Recommendations:   6
+
+====================
+DETAILED RECOMMENDATIONS
+====================
+
+1. Switch to Azure Kubernetes Service (AKS) for backend
+   Service:           backend
+   Type:              alternative_provider
+   Current Cost:      ₹3,040.00
+   Potential Savings: ₹1,520.00
+   Implementation:    high effort, medium risk
+   Cloud Providers:   Azure
+   
+   Description:
+   Azure Kubernetes Service (AKS) provides cost-effective and scalable container management
+   
+   Implementation Steps:
+   - Evaluate AKS features and pricing
+   - Migrate backend to AKS
+   - Optimize resource allocation
+
+2. Use AWS Lambda for cost-effective compute
+   Service:           backend
+   Type:              optimization
+   Current Cost:      ₹3,040.00
+   Potential Savings: ₹1,520.00
+   Implementation:    medium effort, low risk
+   Cloud Providers:   AWS
+   
+   Description:
+   AWS Lambda provides serverless compute for cost-effective and scalable backend processing
+   
+   Implementation Steps:
+   - Evaluate AWS Lambda pricing and features
+   - Refactor backend code to use Lambda functions
+   - Monitor and optimize Lambda function usage
+
+3. Utilize Azure Cosmos DB for MongoDB alternative
+   Service:           database
+   Type:              alternative_provider
+   Current Cost:      ₹3,040.00
+   Potential Savings: ₹1,520.00
+   Implementation:    high effort, medium risk
+   Cloud Providers:   Azure
+   
+   Description:
+   Azure Cosmos DB provides a globally distributed and scalable NoSQL database alternative to MongoDB
+   
+   Implementation Steps:
+   - Evaluate Azure Cosmos DB features and pricing
+   - Migrate database to Azure Cosmos DB
+   - Optimize resource allocation
+
+4. Implement cost-effective storage with AWS S3 Infrequent Access (IA)
+   Service:           storage
+   Type:              cost_effective_storage
+   Current Cost:      ₹1,248.00
+   Potential Savings: ₹926.40
+   Implementation:    low effort, low risk
+   Cloud Providers:   AWS
+   
+   Description:
+   AWS S3 Infrequent Access (IA) provides cost-effective storage for infrequently accessed data
+   
+   Implementation Steps:
+   - Evaluate AWS S3 IA pricing and features
+   - Move less frequently accessed data to S3 IA
+   - Monitor and optimize S3 IA usage
+
+5. Use Azure Virtual Machines Scale Sets for cost-effective compute
+   Service:           backend
+   Type:              optimization
+   Current Cost:      ₹3,040.00
+   Potential Savings: ₹1,520.00
+   Implementation:    medium effort, low risk
+   Cloud Providers:   Azure
+   
+   Description:
+   Azure Virtual Machines Scale Sets provide cost-effective and scalable compute for backend processing
+   
+   Implementation Steps:
+   - Evaluate Azure Virtual Machines Scale Sets pricing and features
+   - Refactor backend code to use Scale Sets
+   - Monitor and optimize Scale Set usage
+
+6. Implement cost-effective storage with Google Cloud Storage Nearline
+   Service:           storage
+   Type:              cost_effective_storage
+   Current Cost:      ₹1,248.00
+   Potential Savings: ₹926.40
+   Implementation:    low effort, low risk
+   Cloud Providers:   GCP
+   
+   Description:
+   Google Cloud Storage Nearline provides cost-effective storage for infrequently accessed data
+   
+   Implementation Steps:
+   - Evaluate Google Cloud Storage Nearline pricing and features
+   - Move less frequently accessed data to Nearline
+   - Monitor and optimize Nearline usage
+
+====================
+END OF REPORT
+====================
