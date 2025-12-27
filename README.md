@@ -87,7 +87,7 @@ mkdir outputs
 
 ### Menu Options
 
-#### 1️⃣ Enter New Project Description
+####  Enter New Project Description
 - Input your project details in plain English
 - Include: project goals, budget, tech stack, requirements
 - Type `END` on a new line when finished
