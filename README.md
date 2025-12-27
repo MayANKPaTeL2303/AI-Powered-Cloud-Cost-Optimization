@@ -261,7 +261,7 @@ and AWS for hosting. My monthly budget is 3000.
 └─────────────────────────────────────────┘
 ```
 
-## Tools Used
+## Acknowledgement
 
 - **OpenText** for the internship opportunity and project assignment
 - **Claude** for AI-powered assistance for debugging
